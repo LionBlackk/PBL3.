@@ -1,0 +1,331 @@
+--CREATE DATABASE PHONESTORE
+use PHONESTORE
+GO
+DROP TABLE IF EXISTS InventoryManagement;
+DROP TABLE IF EXISTS ImportDetail;
+DROP TABLE IF EXISTS ImportManagement;
+DROP TABLE IF EXISTS ExportManagement;
+DROP TABLE IF EXISTS Transaction_;
+DROP TABLE IF EXISTS OrderDetail;
+DROP TABLE IF EXISTS Order_;
+DROP TABLE IF EXISTS Phone;
+DROP TABLE IF EXISTS PhoneType;
+DROP TABLE IF EXISTS Category;
+DROP TABLE IF EXISTS Brand;
+DROP TABLE IF EXISTS Customer;
+DROP TABLE IF EXISTS Account;
+DROP TABLE IF EXISTS Role;
+DROP TABLE IF EXISTS Employee;
+DROP TABLE IF EXISTS State;
+DROP TABLE IF EXISTS TypeOrder;
+DROP TABLE IF EXISTS Discount;
+
+CREATE TABLE Employee
+(
+	IDEmployee INT PRIMARY KEY IDENTITY NOT NULL,
+	NameEmployee NVARCHAR(200),
+	BirthDay DATE ,
+	Gender BIT ,
+	Address NVARCHAR(200),
+	Phone CHAR(11) ,
+	Email NVARCHAR(200),
+	Picture image
+)
+insert into Employee (NameEmployee, BirthDay, Gender, Address, Phone, Email, Picture) values ('Sandra Bredee', '2022-10-07', 1, '61 Macpherson Circle', '8916375706', 'vophuochoang93@gmail.com',(SELECT BulkColumn FROM OPENROWSET(BULK 'C:\Users\DELL\Desktop\Images\man.jpg', SINGLE_BLOB) AS Picture));
+insert into Employee (NameEmployee, BirthDay, Gender, Address, Phone, Email, Picture) values ('Farrah Doorly', '2022-08-12', 0, '1508 Red Cloud Park', '7905099522', 'vophuochoang93@gmail.com',(SELECT BulkColumn FROM OPENROWSET(BULK 'C:\Users\DELL\Desktop\Images\girl1.jpg', SINGLE_BLOB) AS Picture));
+insert into Employee (NameEmployee, BirthDay, Gender, Address, Phone,  Email,Picture) values ('Brewer Garvin', '2022-11-22', 0, '72 Lunder Street', '2371325942', 'vophuochoang93@gmail.com',(SELECT BulkColumn FROM OPENROWSET(BULK 'C:\Users\DELL\Desktop\Images\girl2.jpg', SINGLE_BLOB) AS Picture));
+insert into Employee (NameEmployee, BirthDay, Gender, Address, Phone, Email, Picture) values ('Sella Bahia', '2022-07-02', 1, '1677 Mallard Parkway', '1867429921', 'vophuochoang93@gmail.com',(SELECT BulkColumn FROM OPENROWSET(BULK 'C:\Users\DELL\Desktop\Images\man.jpg', SINGLE_BLOB) AS Picture));
+insert into Employee (NameEmployee, BirthDay, Gender, Address, Phone,  Email,Picture) values ('Sonia Adamsen', '2022-06-25', 1, '5 Coolidge Center', '9639308506', 'vophuochoang93@gmail.com',(SELECT BulkColumn FROM OPENROWSET(BULK 'C:\Users\DELL\Desktop\Images\man.jpg', SINGLE_BLOB) AS Picture));
+insert into Employee (NameEmployee, BirthDay, Gender, Address, Phone, Email, Picture) values ('Virgie Cucinotta', '2022-04-21', 1, '028 Summit Hill', '8627425331', 'vophuochoang93@gmail.com',(SELECT BulkColumn FROM OPENROWSET(BULK 'C:\Users\DELL\Desktop\Images\man.jpg', SINGLE_BLOB) AS Picture));
+insert into Employee (NameEmployee, BirthDay, Gender, Address, Phone, Email, Picture) values ('Hoàng Võ',null,null,null,null,null,null);
+insert into Employee (NameEmployee, BirthDay, Gender, Address, Phone, Email, Picture) values ('Linh',null,null,null,null,null,null);
+
+--insert into Employee (IDEmployee, FullName, BirthDay, Gender, Address, Phone, Picture) values (8, 'Washington Boss', '2022-06-29', 0, '53 Sunbrook Center', '1589255880', 0);
+--insert into Employee (IDEmployee, FullName, BirthDay, Gender, Address, Phone, Picture) values (9, 'Merrili Checcucci', '2022-05-08', 1, '421 Grasskamp Point', '7098828578', 0);
+--insert into Employee (IDEmployee, FullName, BirthDay, Gender, Address, Phone, Picture) values (10, 'Juliann Seyfart', '2022-06-24', 0, '47 Mockingbird Alley', '4101321161', 1);
+--insert into Employee (IDEmployee, FullName, BirthDay, Gender, Address, Phone, Picture) values (11, 'Clarisse Mathen', '2023-03-06', 0, '9 Kropf Alley', '2236892011', 1);
+--insert into Employee (IDEmployee, FullName, BirthDay, Gender, Address, Phone, Picture) values (12, 'Binny Bellew', '2022-09-21', 0, '34 Stone Corner Pass', '1137492571', 1);
+--insert into Employee (IDEmployee, FullName, BirthDay, Gender, Address, Phone, Picture) values (13, 'Derward Landreth', '2022-06-18', 1, '7 Melby Terrace', '6895028110', 1);
+--insert into Employee (IDEmployee, FullName, BirthDay, Gender, Address, Phone, Picture) values (14, 'Romy Gullam', '2023-01-03', 1, '1 Glendale Crossing', '8877914936', 1);
+--insert into Employee (IDEmployee, FullName, BirthDay, Gender, Address, Phone, Picture) values (15, 'Rolfe Brandacci', '2022-06-10', 0, '21511 Mcguire Terrace', '3022828620', 0);
+--insert into Employee (IDEmployee, FullName, BirthDay, Gender, Address, Phone, Picture) values (16, 'Annadiane Kempson', '2022-07-22', 1, '85 Hanson Trail', '8487714325', 0);
+--insert into Employee (IDEmployee, FullName, BirthDay, Gender, Address, Phone, Picture) values (17, 'Christoper Crafts', '2023-02-07', 0, '14 Fair Oaks Circle', '4166539453', 0);
+--insert into Employee (IDEmployee, FullName, BirthDay, Gender, Address, Phone, Picture) values (18, 'Janos Cornwell', '2022-09-15', 1, '8 Elka Terrace', '4649436593', 1);
+--insert into Employee (IDEmployee, FullName, BirthDay, Gender, Address, Phone, Picture) values (19, 'Eugenie Raleston', '2022-09-24', 0, '73617 Ohio Lane', '7615042881', 1);
+--insert into Employee (IDEmployee, FullName, BirthDay, Gender, Address, Phone, Picture) values (20, 'Tracey Marcombe', '2022-05-25', 0, '50 Lillian Road', '8194691940', 1);
+
+
+CREATE TABLE Role
+(
+	IDRole INT PRIMARY KEY NOT NULL,
+	NameRole NVARCHAR(50) NOT NULL
+)
+
+insert into Role (IDRole, NameRole) values 
+(100,'Admin'),
+(101,'Saler'),
+(102,'Warehouse Manager')
+
+
+CREATE TABLE Account
+(
+	IDAccount INT PRIMARY KEY IDENTITY NOT NULL,
+	UserName NVARCHAR(200) NOT NULL,
+	Password NVARCHAR(200) NOT NULL,
+	Email VARCHAR(200) NOT NULL,
+	IDRole INT NOT NULL FOREIGN KEY REFERENCES Role(IDRole),
+	IDEmployee INT NOT NULL FOREIGN KEY REFERENCES Employee(IDEmployee)
+)
+
+insert into Account (UserName, Password,Email,IDRole, IDEmployee) values ('acullivan0', 'amv2PngIr5B+bfZmn5hrJajFWfeGO5XQmJKAeEiwms8=', 'SandraBredee@gmail.com', 100, 1);
+insert into Account (UserName, Password,Email, IDRole,IDEmployee) values ('jpapps1', '0eKNRq91S/+jP2NZlocA61PHB5hsqrqpJwEyHAxY6j4=', 'SandraBredee@gmail.com', 101, 3);
+insert into Account (UserName, Password,Email,IDRole, IDEmployee) values ('hviger2', '8hqB2wUzGgYoOzGaf4oJvI9Q+Qa/EYub0LY3L5WWptA=', 'SandraBredee@gmail.com', 102, 5);
+insert into Account (UserName, Password,Email,IDRole, IDEmployee) values ('gsealand3', 'L0ewQgtFoS1yod7Mgdo+DphKsaSgkq4uQ2qm5cMjxV0=', 'SandraBredee@gmail.com', 102, 2);
+insert into Account (UserName, Password,Email,IDRole, IDEmployee) values ('bfarnill4', 'mLtviVwEWPsrBBtVr756Ekz3XCEicCB9Q2+fJ6Bs+Zo=', 'SandraBredee@gmail.com', 101, 4);
+insert into Account (UserName, Password,Email,IDRole,IDEmployee) values ('zcx23hc4', 'a9bRrTiGCP/MLyFhv3r9jS9el02Z+RKnrJdI3ayqLA4=', 'SandraBredee@gmail.com',100, 6);
+
+
+CREATE TABLE Customer
+(
+	IDCustomer INT PRIMARY KEY IDENTITY NOT NULL,
+	NameCustomer NVARCHAR(200) NOT NULL,
+	Address NVARCHAR(200) NOT NULL,
+	Phone CHAR(11) NOT NULL,
+)
+insert into Customer values ('Ines Bothbie', '583 Waxwing Crossing', '1331829577');
+insert into Customer values ('Benedikta Newlands', '1 Boyd Circle', '6051211053');
+insert into Customer values ('Stephanie Mudge', '85 Kenwood Way', '8888334797');
+insert into Customer values ('Georgena Fritchley', '1 Claremont Court', '6504480265');
+insert into Customer values ('Wendie Tuckley', '66721 Logan Hill', '9653687949');
+insert into Customer values ('Milena Tomaszkiewicz', '572 Eliot Terrace', '3075912639');
+--insert into Customer (IDCustomer, FullName, Address, Phone) values (207, 'Veronique Maidlow', '5 Eastwood Way', '1482475776');
+--insert into Customer (IDCustomer, FullName, Address, Phone) values (208, 'Janel Orrum', '7610 Monica Court', '5908247555');
+--insert into Customer (IDCustomer, FullName, Address, Phone) values (209, 'Shelia Coggill', '65 Summit Park', '1156316872');
+--insert into Customer (IDCustomer, FullName, Address, Phone) values (210, 'Freedman Coakley', '61 International Avenue', '9877464357');
+--insert into Customer (IDCustomer, FullName, Address, Phone) values (211, 'Dayle Pamphilon', '0 Delladonna Place', '8233887296');
+--insert into Customer (IDCustomer, FullName, Address, Phone) values (212, 'Royall Georgiev', '43 Hudson Plaza', '6554375232');
+--insert into Customer (IDCustomer, FullName, Address, Phone) values (213, 'Maitilde Cranham', '097 Surrey Street', '8045291861');
+--insert into Customer (IDCustomer, FullName, Address, Phone) values (214, 'Simonne Worviell', '337 Nova Way', '4839277529');
+--insert into Customer (IDCustomer, FullName, Address, Phone) values (215, 'Josiah Stace', '72418 Kingsford Court', '5734618585');
+--insert into Customer (IDCustomer, FullName, Address, Phone) values (216, 'Tallie Bhatia', '00965 Arizona Avenue', '8467842875');
+--insert into Customer (IDCustomer, FullName, Address, Phone) values (217, 'Hermie Done', '654 Sunfield Hill', '9385787092');
+--insert into Customer (IDCustomer, FullName, Address, Phone) values (218, 'Marina Beaty', '87211 Mifflin Way', '4174147576');
+--insert into Customer (IDCustomer, FullName, Address, Phone) values (219, 'Vincent Bruna', '87 5th Crossing', '2327702163');
+--insert into Customer (IDCustomer, FullName, Address, Phone) values (222, 'Darius Roberds', '4370 Bowman Place', '8149477751');
+
+
+CREATE TABLE Brand
+(
+	IDBrand VARCHAR(20) PRIMARY KEY NOT NULL,
+	NameBrand NVARCHAR(50) NOT NULL
+)
+
+insert into Brand (IDBrand, NameBrand) values
+('Apple','Apple'),
+('Samsung','Samsung'),
+('Xiaomi','Xiaomi'),
+('OPPO','OPPO'),
+('vivo','vivo'),
+('realme','realme'),
+('NOKIA','NOKIA'),
+('ASUS','ASUS');
+
+
+CREATE TABLE Category
+(
+	IDCategory INT PRIMARY KEY IDENTITY NOT NULL,
+	NameCategory NVARCHAR(50) NOT NULL
+)
+
+insert into Category (NameCategory) values 
+(N'Theo hãng'),
+(N'Theo mức giá'),
+(N'Loại điện thoại'),
+(N'Theo nhu cầu'),
+(N'Điện thoại hot');
+
+
+CREATE TABLE PhoneType
+(
+	IDPhoneType INT PRIMARY KEY IDENTITY NOT NULL,
+	PhoneTypeName NVARCHAR(50) NOT NULL,
+	IDCategory INT NOT NULL FOREIGN KEY REFERENCES Category(IDCategory)
+)
+
+insert into PhoneType (PhoneTypeName, IDCategory) values
+('Apple',1),
+('Samsung',1),
+('Xiaomi',1),
+('realme',1),
+(N'Dưới 5 triệu',2),
+(N'Từ 5 đến 10 triệu',2),
+(N'Từ 10 đến 15 triệu',2),
+(N'Từ 15 đến 20 triệu',2),
+(N'Trên 20 triệu',2),
+(N'Android',3),
+(N'iPhone(iOS)',3),
+(N'Chụp ảnh đẹp',4),
+(N'Pin trâu',4);
+
+
+
+CREATE TABLE Phone
+(
+	IDPhone INT PRIMARY KEY IDENTITY NOT NULL,
+	NamePhone NVARCHAR(100) NOT NULL,
+	RAM INT NOT NULL,
+	ROM INT NOT NULL,
+	ScreenSize CHAR(50) NOT NULL,
+	BateryCapacity INT NOT NULL,
+	CameraResolution INT NOT NULL,
+	Price INT NOT NULL,
+	Operating CHAR(50) NOT NULL,
+	IDBrand VARCHAR(20) FOREIGN KEY REFERENCES Brand(IDBrand),
+	IDPhoneType INT FOREIGN KEY REFERENCES PhoneType(IDPhoneType),
+	Picture image
+)
+
+insert into Phone values
+('iPhone 14 Pro Max',6,1024,'OLED 6.7 inch',4323,48,27890000,'iOS 16','Apple',1,(SELECT BulkColumn FROM OPENROWSET(BULK 'C:\Users\DELL\Desktop\Images\IPhone14proMAX.jpg', SINGLE_BLOB) AS Picture)),
+('Samsung Galaxy A34',8,128,'AMOLED 6.6 inch',5000,48,7790000,'Android 13','Samsung',2,(SELECT BulkColumn FROM OPENROWSET(BULK 'C:\Users\DELL\Desktop\Images\SamsungGalaxyA34.jpg', SINGLE_BLOB) AS Picture)),
+('Samsung Galaxy S23 Ultra',8,256,'AMOLED 6.8 inch',5000,48,24290000,'Android','Samsung',2,(SELECT BulkColumn FROM OPENROWSET(BULK 'C:\Users\DELL\Desktop\Images\S22Ultra.jpg', SINGLE_BLOB) AS Picture)),
+('iPhone 12',4,64,'OLED 6.1 inch',1500,26,14390000,'iOS 14.1','Apple',1,(SELECT BulkColumn FROM OPENROWSET(BULK 'C:\Users\DELL\Desktop\Images\iPhone12.jpg', SINGLE_BLOB) AS Picture)),
+('iPhone 14',6,256,'OLED 6.1 inch',3279 ,12,22300000,'iOS 16','Apple',1,(SELECT BulkColumn FROM OPENROWSET(BULK 'C:\Users\DELL\Desktop\Images\iPhone14.jpg', SINGLE_BLOB) AS Picture)),
+('Xiaomi Red Note 11',8,128,'AMOLED 6.66 inch',5000,108,5990000,'Android 11','Xiaomi',3,(SELECT BulkColumn FROM OPENROWSET(BULK 'C:\Users\DELL\Desktop\Images\XiaomiRedNote11.jpg', SINGLE_BLOB) AS Picture)),
+('vivo Y35',8,128,'LCD 6.58inch',5000,50,6290000,'Android 12','vivo',4,(SELECT BulkColumn FROM OPENROWSET(BULK 'C:\Users\DELL\Desktop\Images\vivoY35.jpg', SINGLE_BLOB) AS Picture));
+
+-- khong can TimeDelivery]
+
+CREATE TABLE State
+(
+	IDState INT PRIMARY KEY NOT NULL,
+	NameState NVARCHAR(200) NOT NULL
+)
+
+insert into State values
+(1,N'Đã lên đơn'),
+(2,N'Đang vận chuyển'),
+(3,N'Đã nhận hàng');
+
+CREATE TABLE TypeOrder
+(
+	IDTypeOrder INT PRIMARY KEY NOT NULL,
+	NameTypeOrder NVARCHAR(200) NOT NULL
+)
+
+INSERT INTO TypeOrder values
+(1, N'Mua ngay'),
+(2, N'Đặt hàng');
+
+CREATE TABLE Order_
+(
+	IDOrder INT PRIMARY KEY IDENTITY NOT NULL,
+	IDCustomer INT FOREIGN KEY REFERENCES Customer(IDCustomer),
+	IDEmployeeCreate INT FOREIGN KEY REFERENCES Employee(IDEmployee),
+	IDEmployeeEdit INT,
+	TimeOrder DATETIME NOT NULL,
+	Total INT NOT NULL,
+	IDState INT NOT NULL FOREIGN KEY REFERENCES State(IDState),
+	IDTypeOrder INT NOT NULL FOREIGN KEY REFERENCES TypeOrder(IDTypeOrder)
+)
+
+insert into Order_ (IDCustomer,IDEmployeeCreate, IDEmployeeEdit, TimeOrder, Total, IDState, IDTypeOrder) values
+(1,3,3,'2022-07-05',27890000,1,1),
+(3,4,null,'2023-05-05',27890000,1,1),
+(4,3,null,'2023-03-01',27890000,2,1),
+(5,3,4,'2023-02-05',27890000,2,2);
+
+
+
+CREATE TABLE OrderDetail
+(
+	IDOdDetail INT PRIMARY KEY IDENTITY NOT NULL,
+	IDOrder INT FOREIGN KEY REFERENCES Order_(IDOrder),
+	IDPhone INT FOREIGN KEY REFERENCES Phone(IDPhone),
+	Quantity INT NOT NULL,
+	Total INT NOT NULL
+)
+insert into OrderDetail (IDPhone, Quantity, Total) values
+(5,2,27890000*2),
+(2,1,27890000),
+(1,3,27890000*3),
+(4,1,27890000);
+
+CREATE TABLE Discount(
+	IDDiscount INT PRIMARY KEY IDENTITY NOT NULL,
+	ValueDiscount INT NOT NULL
+)
+insert into Discount values
+(0), (1), (2), (3), (4), (5), (6), (7), (8), (9), (10);
+
+
+CREATE TABLE Transaction_
+(
+	IDTransaction INT PRIMARY KEY IDENTITY NOT NULL,
+	IDOrder INT FOREIGN KEY REFERENCES Order_(IDOrder),
+	PaymentMethods NVARCHAR(100) NOT NULL,
+	DateOfPayment DATE NOT NULL,
+	Price INT NOT NULL,
+	IDDiscount INT NOT NULL FOREIGN KEY REFERENCES Discount(IDDiscount)
+)
+
+insert into Transaction_(IDOrder, PaymentMethods, DateOfPayment, Price,IDDiscount) values
+(1,'Credit','2022-05-08',22000000,1),
+(2,'Direct','2022-05-08',23000000,1),
+(3,'Direct','2022-05-08',24000000,1),
+(4,'Credit','2022-05-08',25000000,1);
+
+CREATE TABLE ExportManagement
+(
+	IDExManagement INT PRIMARY KEY IDENTITY NOT NULL,
+	IDOrder INT FOREIGN KEY REFERENCES Order_(IDOrder), 
+	IDEmployee INT FOREIGN KEY REFERENCES Employee(IDEmployee),
+	ExportDate DATETIME NOT NULL,
+)
+insert into ExportManagement values
+(1,3,'2023-04-02'),
+(4,4,'2023-02-01');
+
+CREATE TABLE ImportManagement
+(
+	IDImManagement INT PRIMARY KEY IDENTITY NOT NULL,
+	IDEmployee INT FOREIGN KEY REFERENCES Employee(IDEmployee),
+	ImportDate DATETIME NOT NULL,
+	Total INT NOT NULL
+)
+insert into ImportManagement values 
+(2,'2023-04-03',20000000),
+(3,'2023-04-15',20000000),
+(1,'2023-02-10',60000000);
+
+CREATE TABLE ImportDetail
+(
+	IDImDetail INT PRIMARY KEY IDENTITY NOT NULL,
+	IDImManagement INT NOT NULL FOREIGN KEY REFERENCES ImportManagement(IDImManagement),
+	IDPhone INT NOT NULL FOREIGN KEY REFERENCES Phone(IDPhone),
+	Quantity INT NOT NULL,
+	UnitPrice INT NOT NULL
+)
+insert into ImportDetail values
+(1,1,2,20000000),
+(1,2,1,20000000),
+(2,3,3,60000000);
+
+
+CREATE TABLE InventoryManagement(
+	IDInvenManagement INT PRIMARY KEY IDENTITY NOT NULL,
+	IDPhone INT NOT NULL FOREIGN KEY REFERENCES Phone(IDPhone),
+	Quantity INT NOT NULL
+)
+
+INSERT INTO InventoryManagement values
+(1,3),
+(2,0),
+(3,10),
+(4,10),
+(5,10),
+(6,10),
+(7,4);
+
+
+

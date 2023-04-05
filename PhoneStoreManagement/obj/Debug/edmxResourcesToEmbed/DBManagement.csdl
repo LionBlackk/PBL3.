@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PHONESTOREModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Account">
+    <Key>
+      <PropertyRef Name="IDAccount" />
+    </Key>
+    <Property Name="IDAccount" Type="Int32" Nullable="false" />
+    <Property Name="UserName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="IDRole" Type="Int32" Nullable="false" />
+    <Property Name="IDEmployee" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK__Account__IDEmplo__1411F17C" FromRole="Account" ToRole="Employee" />
+    <NavigationProperty Name="Role" Relationship="Self.FK__Account__IDRole__131DCD43" FromRole="Account" ToRole="Role" />
+  </EntityType>
+  <EntityType Name="Brand">
+    <Key>
+      <PropertyRef Name="IDBrand" />
+    </Key>
+    <Property Name="IDBrand" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="NameBrand" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Phones" Relationship="Self.FK__Phone__IDBrand__4E3E9311" FromRole="Brand" ToRole="Phone" />
+  </EntityType>
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="IDCategory" />
+    </Key>
+    <Property Name="IDCategory" Type="Int32" Nullable="false" />
+    <Property Name="NameCategory" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="PhoneTypes" Relationship="Self.FK__PhoneType__IDCat__4B622666" FromRole="Category" ToRole="PhoneType" />
+  </EntityType>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="IDCustomer" />
+    </Key>
+    <Property Name="IDCustomer" Type="Int32" Nullable="false" />
+    <Property Name="FullName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Address" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Phone" Type="String" MaxLength="11" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="IDEmployeeCreate" Type="Int32" Nullable="false" />
+    <Property Name="IDEmployeeEdit" Type="Int32" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK__Customer__IDEmpl__16EE5E27" FromRole="Customer" ToRole="Employee" />
+    <NavigationProperty Name="Order_" Relationship="Self.FK__Order___IDCustom__0682EC34" FromRole="Customer" ToRole="Order_" />
+  </EntityType>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="IDEmployee" />
+    </Key>
+    <Property Name="IDEmployee" Type="Int32" Nullable="false" />
+    <Property Name="FullName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="BirthDay" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Gender" Type="Boolean" Nullable="false" />
+    <Property Name="Address" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Phone" Type="String" MaxLength="11" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="Picture" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Accounts" Relationship="Self.FK__Account__IDEmplo__1411F17C" FromRole="Employee" ToRole="Account" />
+    <NavigationProperty Name="Customers" Relationship="Self.FK__Customer__IDEmpl__16EE5E27" FromRole="Employee" ToRole="Customer" />
+    <NavigationProperty Name="ExportManagements" Relationship="Self.FK__ExportMan__IDEmp__1A89E4E1" FromRole="Employee" ToRole="ExportManagement" />
+    <NavigationProperty Name="ImportManagements" Relationship="Self.FK__ImportMan__IDEmp__1D66518C" FromRole="Employee" ToRole="ImportManagement" />
+    <NavigationProperty Name="Order_" Relationship="Self.FK__Order___IDEmploy__0777106D" FromRole="Employee" ToRole="Order_" />
+  </EntityType>
+  <EntityType Name="ExportManagement">
+    <Key>
+      <PropertyRef Name="IDExManagement" />
+    </Key>
+    <Property Name="IDExManagement" Type="Int32" Nullable="false" />
+    <Property Name="IDOrder" Type="Int32" />
+    <Property Name="IDEmployee" Type="Int32" />
+    <Property Name="ExportDate" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK__ExportMan__IDEmp__1A89E4E1" FromRole="ExportManagement" ToRole="Employee" />
+    <NavigationProperty Name="Order_" Relationship="Self.FK__ExportMan__IDOrd__1995C0A8" FromRole="ExportManagement" ToRole="Order_" />
+  </EntityType>
+  <EntityType Name="ImportDetail">
+    <Key>
+      <PropertyRef Name="IDImDetail" />
+    </Key>
+    <Property Name="IDImDetail" Type="Int32" Nullable="false" />
+    <Property Name="IDImManagement" Type="Int32" Nullable="false" />
+    <Property Name="IDPhone" Type="Int32" Nullable="false" />
+    <Property Name="Quantity" Type="Int32" Nullable="false" />
+    <Property Name="UnitPrice" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="ImportManagement" Relationship="Self.FK__ImportDet__IDImM__2042BE37" FromRole="ImportDetail" ToRole="ImportManagement" />
+    <NavigationProperty Name="Phone" Relationship="Self.FK__ImportDet__IDPho__2136E270" FromRole="ImportDetail" ToRole="Phone" />
+  </EntityType>
+  <EntityType Name="ImportManagement">
+    <Key>
+      <PropertyRef Name="IDImManagement" />
+    </Key>
+    <Property Name="IDImManagement" Type="Int32" Nullable="false" />
+    <Property Name="IDEmployee" Type="Int32" />
+    <Property Name="ImportDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Total" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK__ImportMan__IDEmp__1D66518C" FromRole="ImportManagement" ToRole="Employee" />
+    <NavigationProperty Name="ImportDetails" Relationship="Self.FK__ImportDet__IDImM__2042BE37" FromRole="ImportManagement" ToRole="ImportDetail" />
+  </EntityType>
+  <EntityType Name="Order_">
+    <Key>
+      <PropertyRef Name="IDOrder" />
+    </Key>
+    <Property Name="IDOrder" Type="Int32" Nullable="false" />
+    <Property Name="IDCustomer" Type="Int32" />
+    <Property Name="IDEmployee" Type="Int32" />
+    <Property Name="TimeOrder" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="TimeDelivery" Type="DateTime" Precision="3" />
+    <Property Name="Total" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Customer" Relationship="Self.FK__Order___IDCustom__0682EC34" FromRole="Order_" ToRole="Customer" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK__Order___IDEmploy__0777106D" FromRole="Order_" ToRole="Employee" />
+    <NavigationProperty Name="ExportManagements" Relationship="Self.FK__ExportMan__IDOrd__1995C0A8" FromRole="Order_" ToRole="ExportManagement" />
+    <NavigationProperty Name="OrderDetails" Relationship="Self.FK__OrderDeta__IDOrd__100C566E" FromRole="Order_" ToRole="OrderDetail" />
+    <NavigationProperty Name="Transaction_" Relationship="Self.FK__Transacti__IDOrd__13DCE752" FromRole="Order_" ToRole="Transaction_" />
+  </EntityType>
+  <EntityType Name="OrderDetail">
+    <Key>
+      <PropertyRef Name="IDOdDetail" />
+    </Key>
+    <Property Name="IDOdDetail" Type="Int32" Nullable="false" />
+    <Property Name="IDOrder" Type="Int32" />
+    <Property Name="IDPhone" Type="Int32" />
+    <Property Name="Quantity" Type="Int32" Nullable="false" />
+    <Property Name="Total" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Order_" Relationship="Self.FK__OrderDeta__IDOrd__100C566E" FromRole="OrderDetail" ToRole="Order_" />
+    <NavigationProperty Name="Phone" Relationship="Self.FK__OrderDeta__IDPho__11007AA7" FromRole="OrderDetail" ToRole="Phone" />
+  </EntityType>
+  <EntityType Name="Phone">
+    <Key>
+      <PropertyRef Name="IDPhone" />
+    </Key>
+    <Property Name="IDPhone" Type="Int32" Nullable="false" />
+    <Property Name="NamePhone" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="RAM" Type="Int32" Nullable="false" />
+    <Property Name="ROM" Type="Int32" Nullable="false" />
+    <Property Name="ScreenSize" Type="Decimal" Precision="3" Scale="1" Nullable="false" />
+    <Property Name="BateryCapacity" Type="Int32" Nullable="false" />
+    <Property Name="CameraResolution" Type="Int32" Nullable="false" />
+    <Property Name="Picture" Type="Boolean" Nullable="false" />
+    <Property Name="Price" Type="Int32" Nullable="false" />
+    <Property Name="IDBrand" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="IDPhoneType" Type="Int32" />
+    <NavigationProperty Name="Brand" Relationship="Self.FK__Phone__IDBrand__4E3E9311" FromRole="Phone" ToRole="Brand" />
+    <NavigationProperty Name="ImportDetails" Relationship="Self.FK__ImportDet__IDPho__2136E270" FromRole="Phone" ToRole="ImportDetail" />
+    <NavigationProperty Name="OrderDetails" Relationship="Self.FK__OrderDeta__IDPho__11007AA7" FromRole="Phone" ToRole="OrderDetail" />
+    <NavigationProperty Name="PhoneType" Relationship="Self.FK__Phone__IDPhoneTy__4F32B74A" FromRole="Phone" ToRole="PhoneType" />
+  </EntityType>
+  <EntityType Name="PhoneType">
+    <Key>
+      <PropertyRef Name="IDPhoneType" />
+    </Key>
+    <Property Name="IDPhoneType" Type="Int32" Nullable="false" />
+    <Property Name="PhoneTypeName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="IDCategory" Type="Int32" />
+    <NavigationProperty Name="Category" Relationship="Self.FK__PhoneType__IDCat__4B622666" FromRole="PhoneType" ToRole="Category" />
+    <NavigationProperty Name="Phones" Relationship="Self.FK__Phone__IDPhoneTy__4F32B74A" FromRole="PhoneType" ToRole="Phone" />
+  </EntityType>
+  <EntityType Name="Role">
+    <Key>
+      <PropertyRef Name="IDRole" />
+    </Key>
+    <Property Name="IDRole" Type="Int32" Nullable="false" />
+    <Property Name="NameRole" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Accounts" Relationship="Self.FK__Account__IDRole__131DCD43" FromRole="Role" ToRole="Account" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Transaction_">
+    <Key>
+      <PropertyRef Name="IDTransaction" />
+    </Key>
+    <Property Name="IDTransaction" Type="Int32" Nullable="false" />
+    <Property Name="IDOrder" Type="Int32" />
+    <Property Name="PaymentMethods" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DateOfPayment" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Price" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Order_" Relationship="Self.FK__Transacti__IDOrd__13DCE752" FromRole="Transaction_" ToRole="Order_" />
+  </EntityType>
+  <Association Name="FK__Account__IDEmplo__1411F17C">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="1" />
+    <End Role="Account" Type="Self.Account" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="IDEmployee" />
+      </Principal>
+      <Dependent Role="Account">
+        <PropertyRef Name="IDEmployee" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Account__IDRole__131DCD43">
+    <End Role="Role" Type="Self.Role" Multiplicity="1" />
+    <End Role="Account" Type="Self.Account" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Role">
+        <PropertyRef Name="IDRole" />
+      </Principal>
+      <Dependent Role="Account">
+        <PropertyRef Name="IDRole" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Phone__IDBrand__4E3E9311">
+    <End Role="Brand" Type="Self.Brand" Multiplicity="0..1" />
+    <End Role="Phone" Type="Self.Phone" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Brand">
+        <PropertyRef Name="IDBrand" />
+      </Principal>
+      <Dependent Role="Phone">
+        <PropertyRef Name="IDBrand" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PhoneType__IDCat__4B622666">
+    <End Role="Category" Type="Self.Category" Multiplicity="0..1" />
+    <End Role="PhoneType" Type="Self.PhoneType" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Category">
+        <PropertyRef Name="IDCategory" />
+      </Principal>
+      <Dependent Role="PhoneType">
+        <PropertyRef Name="IDCategory" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Customer__IDEmpl__16EE5E27">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="1" />
+    <End Role="Customer" Type="Self.Customer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="IDEmployee" />
+      </Principal>
+      <Dependent Role="Customer">
+        <PropertyRef Name="IDEmployeeCreate" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Order___IDCustom__0682EC34">
+    <End Role="Customer" Type="Self.Customer" Multiplicity="0..1" />
+    <End Role="Order_" Type="Self.Order_" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="IDCustomer" />
+      </Principal>
+      <Dependent Role="Order_">
+        <PropertyRef Name="IDCustomer" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ExportMan__IDEmp__1A89E4E1">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+    <End Role="ExportManagement" Type="Self.ExportManagement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="IDEmployee" />
+      </Principal>
+      <Dependent Role="ExportManagement">
+        <PropertyRef Name="IDEmployee" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ImportMan__IDEmp__1D66518C">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+    <End Role="ImportManagement" Type="Self.ImportManagement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="IDEmployee" />
+      </Principal>
+      <Dependent Role="ImportManagement">
+        <PropertyRef Name="IDEmployee" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Order___IDEmploy__0777106D">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+    <End Role="Order_" Type="Self.Order_" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="IDEmployee" />
+      </Principal>
+      <Dependent Role="Order_">
+        <PropertyRef Name="IDEmployee" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ExportMan__IDOrd__1995C0A8">
+    <End Role="Order_" Type="Self.Order_" Multiplicity="0..1" />
+    <End Role="ExportManagement" Type="Self.ExportManagement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Order_">
+        <PropertyRef Name="IDOrder" />
+      </Principal>
+      <Dependent Role="ExportManagement">
+        <PropertyRef Name="IDOrder" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ImportDet__IDImM__2042BE37">
+    <End Role="ImportManagement" Type="Self.ImportManagement" Multiplicity="1" />
+    <End Role="ImportDetail" Type="Self.ImportDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ImportManagement">
+        <PropertyRef Name="IDImManagement" />
+      </Principal>
+      <Dependent Role="ImportDetail">
+        <PropertyRef Name="IDImManagement" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ImportDet__IDPho__2136E270">
+    <End Role="Phone" Type="Self.Phone" Multiplicity="1" />
+    <End Role="ImportDetail" Type="Self.ImportDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Phone">
+        <PropertyRef Name="IDPhone" />
+      </Principal>
+      <Dependent Role="ImportDetail">
+        <PropertyRef Name="IDPhone" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__OrderDeta__IDOrd__100C566E">
+    <End Role="Order_" Type="Self.Order_" Multiplicity="0..1" />
+    <End Role="OrderDetail" Type="Self.OrderDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Order_">
+        <PropertyRef Name="IDOrder" />
+      </Principal>
+      <Dependent Role="OrderDetail">
+        <PropertyRef Name="IDOrder" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Transacti__IDOrd__13DCE752">
+    <End Role="Order_" Type="Self.Order_" Multiplicity="0..1" />
+    <End Role="Transaction_" Type="Self.Transaction_" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Order_">
+        <PropertyRef Name="IDOrder" />
+      </Principal>
+      <Dependent Role="Transaction_">
+        <PropertyRef Name="IDOrder" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__OrderDeta__IDPho__11007AA7">
+    <End Role="Phone" Type="Self.Phone" Multiplicity="0..1" />
+    <End Role="OrderDetail" Type="Self.OrderDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Phone">
+        <PropertyRef Name="IDPhone" />
+      </Principal>
+      <Dependent Role="OrderDetail">
+        <PropertyRef Name="IDPhone" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Phone__IDPhoneTy__4F32B74A">
+    <End Role="PhoneType" Type="Self.PhoneType" Multiplicity="0..1" />
+    <End Role="Phone" Type="Self.Phone" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PhoneType">
+        <PropertyRef Name="IDPhoneType" />
+      </Principal>
+      <Dependent Role="Phone">
+        <PropertyRef Name="IDPhoneType" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DBManagement" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Accounts" EntityType="Self.Account" />
+    <EntitySet Name="Brands" EntityType="Self.Brand" />
+    <EntitySet Name="Categories" EntityType="Self.Category" />
+    <EntitySet Name="Customers" EntityType="Self.Customer" />
+    <EntitySet Name="Employees" EntityType="Self.Employee" />
+    <EntitySet Name="ExportManagements" EntityType="Self.ExportManagement" />
+    <EntitySet Name="ImportDetails" EntityType="Self.ImportDetail" />
+    <EntitySet Name="ImportManagements" EntityType="Self.ImportManagement" />
+    <EntitySet Name="Order_" EntityType="Self.Order_" />
+    <EntitySet Name="OrderDetails" EntityType="Self.OrderDetail" />
+    <EntitySet Name="Phones" EntityType="Self.Phone" />
+    <EntitySet Name="PhoneTypes" EntityType="Self.PhoneType" />
+    <EntitySet Name="Roles" EntityType="Self.Role" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="Transaction_" EntityType="Self.Transaction_" />
+    <AssociationSet Name="FK__Account__IDEmplo__1411F17C" Association="Self.FK__Account__IDEmplo__1411F17C">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="Account" EntitySet="Accounts" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Account__IDRole__131DCD43" Association="Self.FK__Account__IDRole__131DCD43">
+      <End Role="Role" EntitySet="Roles" />
+      <End Role="Account" EntitySet="Accounts" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Phone__IDBrand__4E3E9311" Association="Self.FK__Phone__IDBrand__4E3E9311">
+      <End Role="Brand" EntitySet="Brands" />
+      <End Role="Phone" EntitySet="Phones" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PhoneType__IDCat__4B622666" Association="Self.FK__PhoneType__IDCat__4B622666">
+      <End Role="Category" EntitySet="Categories" />
+      <End Role="PhoneType" EntitySet="PhoneTypes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Customer__IDEmpl__16EE5E27" Association="Self.FK__Customer__IDEmpl__16EE5E27">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="Customer" EntitySet="Customers" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Order___IDCustom__0682EC34" Association="Self.FK__Order___IDCustom__0682EC34">
+      <End Role="Customer" EntitySet="Customers" />
+      <End Role="Order_" EntitySet="Order_" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ExportMan__IDEmp__1A89E4E1" Association="Self.FK__ExportMan__IDEmp__1A89E4E1">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="ExportManagement" EntitySet="ExportManagements" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ImportMan__IDEmp__1D66518C" Association="Self.FK__ImportMan__IDEmp__1D66518C">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="ImportManagement" EntitySet="ImportManagements" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Order___IDEmploy__0777106D" Association="Self.FK__Order___IDEmploy__0777106D">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="Order_" EntitySet="Order_" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ExportMan__IDOrd__1995C0A8" Association="Self.FK__ExportMan__IDOrd__1995C0A8">
+      <End Role="Order_" EntitySet="Order_" />
+      <End Role="ExportManagement" EntitySet="ExportManagements" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ImportDet__IDImM__2042BE37" Association="Self.FK__ImportDet__IDImM__2042BE37">
+      <End Role="ImportManagement" EntitySet="ImportManagements" />
+      <End Role="ImportDetail" EntitySet="ImportDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ImportDet__IDPho__2136E270" Association="Self.FK__ImportDet__IDPho__2136E270">
+      <End Role="Phone" EntitySet="Phones" />
+      <End Role="ImportDetail" EntitySet="ImportDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK__OrderDeta__IDOrd__100C566E" Association="Self.FK__OrderDeta__IDOrd__100C566E">
+      <End Role="Order_" EntitySet="Order_" />
+      <End Role="OrderDetail" EntitySet="OrderDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Transacti__IDOrd__13DCE752" Association="Self.FK__Transacti__IDOrd__13DCE752">
+      <End Role="Order_" EntitySet="Order_" />
+      <End Role="Transaction_" EntitySet="Transaction_" />
+    </AssociationSet>
+    <AssociationSet Name="FK__OrderDeta__IDPho__11007AA7" Association="Self.FK__OrderDeta__IDPho__11007AA7">
+      <End Role="Phone" EntitySet="Phones" />
+      <End Role="OrderDetail" EntitySet="OrderDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Phone__IDPhoneTy__4F32B74A" Association="Self.FK__Phone__IDPhoneTy__4F32B74A">
+      <End Role="PhoneType" EntitySet="PhoneTypes" />
+      <End Role="Phone" EntitySet="Phones" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

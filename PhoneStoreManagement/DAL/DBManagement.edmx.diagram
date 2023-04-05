@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="48742ef44b084b41a15bd425add828df" Name="Diagram1">
+        <EntityTypeShape EntityType="PHONESTOREModel.Account" Width="1.5" PointX="3" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PHONESTOREModel.Brand" Width="1.5" PointX="1.5" PointY="17.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PHONESTOREModel.Category" Width="1.5" PointX="1.5" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PHONESTOREModel.Customer" Width="1.5" PointX="0.75" PointY="26" IsExpanded="true" />
+        <EntityTypeShape EntityType="PHONESTOREModel.Discount" Width="1.5" PointX="6" PointY="16.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PHONESTOREModel.Employee" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PHONESTOREModel.ExportManagement" Width="1.5" PointX="6" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PHONESTOREModel.ImportManagement" Width="1.5" PointX="3" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PHONESTOREModel.InventoryManagement" Width="1.5" PointX="3" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PHONESTOREModel.Order_" Width="1.5" PointX="3" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PHONESTOREModel.OrderDetail" Width="1.5" PointX="5.25" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PHONESTOREModel.Phone" Width="1.5" PointX="0.75" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PHONESTOREModel.PhoneType" Width="1.5" PointX="1.5" PointY="19.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PHONESTOREModel.Role" Width="1.5" PointX="0.75" PointY="13.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PHONESTOREModel.State" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PHONESTOREModel.sysdiagram" Width="1.5" PointX="5.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PHONESTOREModel.Transaction_" Width="1.5" PointX="8.25" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PHONESTOREModel.TypeOrder" Width="1.5" PointX="0.75" PointY="29.125" IsExpanded="true" />
+        <AssociationConnector Association="PHONESTOREModel.FK__Account__IDEmplo__25DB9BFC" ManuallyRouted="false" />
+        <AssociationConnector Association="PHONESTOREModel.FK__Account__IDRole__24E777C3" ManuallyRouted="false" />
+        <AssociationConnector Association="PHONESTOREModel.FK__Phone__IDBrand__314D4EA8" ManuallyRouted="false" />
+        <AssociationConnector Association="PHONESTOREModel.FK__PhoneType__IDCat__2E70E1FD" ManuallyRouted="false" />
+        <AssociationConnector Association="PHONESTOREModel.FK__Order___IDCustom__38EE7070" ManuallyRouted="false" />
+        <AssociationConnector Association="PHONESTOREModel.FK__Transacti__IDDis__45544755" ManuallyRouted="false" />
+        <AssociationConnector Association="PHONESTOREModel.FK__ExportMan__IDEmp__4924D839" ManuallyRouted="false" />
+        <AssociationConnector Association="PHONESTOREModel.FK__ImportMan__IDEmp__4C0144E4" ManuallyRouted="false" />
+        <AssociationConnector Association="PHONESTOREModel.FK__Order___IDEmploy__39E294A9" ManuallyRouted="false" />
+        <AssociationConnector Association="PHONESTOREModel.FK__ExportMan__IDOrd__4830B400" ManuallyRouted="false" />
+        <AssociationConnector Association="PHONESTOREModel.FK__ImportMan__IDPho__4CF5691D" ManuallyRouted="false" />
+        <AssociationConnector Association="PHONESTOREModel.FK__Inventory__IDPho__4FD1D5C8" ManuallyRouted="false" />
+        <AssociationConnector Association="PHONESTOREModel.FK__Order___IDState__3AD6B8E2" ManuallyRouted="false" />
+        <AssociationConnector Association="PHONESTOREModel.FK__Order___IDTypeOr__3BCADD1B" ManuallyRouted="false" />
+        <AssociationConnector Association="PHONESTOREModel.FK__OrderDeta__IDOrd__3EA749C6" ManuallyRouted="false" />
+        <AssociationConnector Association="PHONESTOREModel.FK__Transacti__IDOrd__4460231C" ManuallyRouted="false" />
+        <AssociationConnector Association="PHONESTOREModel.FK__OrderDeta__IDPho__3F9B6DFF" ManuallyRouted="false" />
+        <AssociationConnector Association="PHONESTOREModel.FK__Phone__IDPhoneTy__324172E1" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

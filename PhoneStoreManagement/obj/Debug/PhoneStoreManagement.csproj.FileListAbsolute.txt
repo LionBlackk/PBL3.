@@ -1,0 +1,269 @@
+E:\PBL_3\PBL3\PhoneStoreManagement\bin\Debug\PhoneStoreManagement.exe.config
+E:\PBL_3\PBL3\PhoneStoreManagement\bin\Debug\PhoneStoreManagement.exe
+E:\PBL_3\PBL3\PhoneStoreManagement\bin\Debug\PhoneStoreManagement.pdb
+E:\PBL_3\PBL3\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.csproj.AssemblyReference.cache
+E:\PBL_3\PBL3\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.csproj.SuggestedBindingRedirects.cache
+E:\PBL_3\PBL3\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.FormChangePassword.resources
+E:\PBL_3\PBL3\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.FormLogin.resources
+E:\PBL_3\PBL3\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.FormRegister.resources
+E:\PBL_3\PBL3\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.Properties.Resources.resources
+E:\PBL_3\PBL3\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.UserControls.UC_Order_Saler.resources
+E:\PBL_3\PBL3\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.UserControls.UC_qlAccounts_Admin.resources
+E:\PBL_3\PBL3\PhoneStoreManagement\obj\Debug\BookShopManagement.UserControls.UC_qlOrder_Admin.resources
+E:\PBL_3\PBL3\PhoneStoreManagement\obj\Debug\BookShopManagement.UserControls.UC_qlPhone_Admin.resources
+E:\PBL_3\PBL3\PhoneStoreManagement\obj\Debug\BookShopManagement.UserControls.UC_qlStaff_Admin.resources
+E:\PBL_3\PBL3\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.UserControls.UC_report_Admin.resources
+E:\PBL_3\PBL3\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.UserControls.UC_Settings.resources
+E:\PBL_3\PBL3\PhoneStoreManagement\obj\Debug\BookShopManagement.UserControls.UC_trangchu.resources
+E:\PBL_3\PBL3\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.csproj.GenerateResource.cache
+E:\PBL_3\PBL3\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.csproj.CoreCompileInputs.cache
+E:\PBL_3\PBL3\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.exe
+E:\PBL_3\PBL3\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.pdb
+E:\PBL_3\PBL3\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.UserControls.UC_item.resources
+E:\PBL_3\PBL3\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.FormWhManager.resources
+E:\PBL_3\PBL3\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.FormAddvsEditPhone.resources
+E:\PBL_3\PBL3\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.FormAdmin.resources
+E:\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\PhoneStoreManagement.exe.config
+E:\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\PhoneStoreManagement.exe
+E:\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\PhoneStoreManagement.pdb
+E:\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\EntityFramework.dll
+E:\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\EntityFramework.SqlServer.dll
+E:\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\EntityFramework.xml
+E:\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\EntityFramework.SqlServer.xml
+E:\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.csproj.AssemblyReference.cache
+E:\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.csproj.SuggestedBindingRedirects.cache
+E:\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.FormAdmin.resources
+E:\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.FormChangePW.resources
+E:\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.FormChooseProduct.resources
+E:\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.FormDetailProduct.resources
+E:\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.FormResetPassword.resources
+E:\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.FormForgotPW.resources
+E:\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.FormLogin.resources
+E:\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.FormRegister.resources
+E:\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.FormSaler.resources
+E:\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.FormWhManager.resources
+E:\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.Properties.Resources.resources
+E:\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.UserControls.UC_Product.resources
+E:\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.UserControls.UC_Order.resources
+E:\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.UserControls.UC_qlAccounts_Admin.resources
+E:\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\BookShopManagement.UserControls.UC_qlOrder_Admin.resources
+E:\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\BookShopManagement.UserControls.UC_qlPhone_Admin.resources
+E:\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\BookShopManagement.UserControls.UC_qlStaff_Admin.resources
+E:\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.UserControls.UC_report_Admin.resources
+E:\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.UserControls.UC_Settings.resources
+E:\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.UserControls.UC_Home.resources
+E:\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.csproj.GenerateResource.cache
+E:\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.csproj.CoreCompileInputs.cache
+E:\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.csproj.CopyComplete
+E:\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.exe
+E:\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.pdb
+E:\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+E:\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+E:\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+E:\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+E:\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\Microsoft.ReportViewer.Common.dll
+E:\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+E:\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\Microsoft.SqlServer.Types.dll
+E:\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+E:\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+E:\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.FormReceipt.resources
+E:\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.UserControls.UC_InfoOrdered.resources
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\PhoneStoreManagement.exe.config
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\PhoneStoreManagement.exe
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\PhoneStoreManagement.pdb
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\EntityFramework.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\EntityFramework.xml
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.csproj.AssemblyReference.cache
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.csproj.SuggestedBindingRedirects.cache
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.FormReceipt.resources
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.FormAdmin.resources
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.FormChangePW.resources
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.FormChooseProduct.resources
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.FormDetailProduct.resources
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.FormResetPassword.resources
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.FormForgotPW.resources
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.FormLogin.resources
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.FormRegister.resources
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.FormSaler.resources
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.FormWhManager.resources
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.Properties.Resources.resources
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.UserControls.UC_InfoOrdered.resources
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.UserControls.UC_Product.resources
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.UserControls.UC_Order.resources
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\BookShopManagement.UserControls.UC_qlOrder_Admin.resources
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\BookShopManagement.UserControls.UC_qlPhone_Admin.resources
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\BookShopManagement.UserControls.UC_qlStaff_Admin.resources
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.UserControls.UC_report_Admin.resources
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.UserControls.UC_Settings.resources
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.UserControls.UC_Home.resources
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.csproj.GenerateResource.cache
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.csproj.CoreCompileInputs.cache
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.csproj.CopyComplete
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.exe
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.pdb
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.UserControls.UC_qlAccount_Admin.resources
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.FormViewCustomer.resources
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.UserControls.UC_Import.resources
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.UserControls.UC_InventoryManagement.resources
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.UserControls.UC_Export.resources
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\EnvDTE.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\stdole.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.UserControls.UC_ListImport.resources
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\PagedList.dll
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\PagedList.xml
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.FormAdd_EditAccount.resources
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.FormAdd_EditEmployee.resources
+C:\Users\This PC\Downloads\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.FormAdd_EditPhone.resources
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\PhoneStoreManagement.exe.config
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\PhoneStoreManagement.exe
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\PhoneStoreManagement.pdb
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\EntityFramework.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\PagedList.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\EnvDTE.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\stdole.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\EntityFramework.xml
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\PagedList.xml
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.csproj.AssemblyReference.cache
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.csproj.SuggestedBindingRedirects.cache
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.exe.config
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.FormAdd_EditAccount.resources
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.FormAdd_EditEmployee.resources
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.FormAdd_EditPhone.resources
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.FormReceipt.resources
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.FormAdmin.resources
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.FormChangePW.resources
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.FormChooseProduct.resources
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.FormDetailProduct.resources
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.FormResetPassword.resources
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.FormForgotPW.resources
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.FormLogin.resources
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.FormRegister.resources
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.FormSaler.resources
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.FormViewCustomer.resources
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.FormWhManager.resources
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.Properties.Resources.resources
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.UserControls.UC_Export.resources
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.UserControls.UC_Import.resources
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.UserControls.UC_InfoOrdered.resources
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.UserControls.UC_InventoryManagement.resources
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.UserControls.UC_ListImport.resources
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.UserControls.UC_Product.resources
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.UserControls.UC_Order.resources
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.UserControls.UC_qlAccount_Admin.resources
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\BookShopManagement.UserControls.UC_qlOrder_Admin.resources
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\BookShopManagement.UserControls.UC_qlPhone_Admin.resources
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\BookShopManagement.UserControls.UC_qlStaff_Admin.resources
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.UserControls.UC_report_Admin.resources
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.UserControls.UC_Settings.resources
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.UserControls.UC_Home.resources
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.csproj.GenerateResource.cache
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.csproj.CopyComplete
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.exe
+C:\Users\DELL\Documents\PBL3Demo3\PBL3\PBL3\PhoneStoreManagement\PhoneStoreManagement\obj\Debug\PhoneStoreManagement.pdb
